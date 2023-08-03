@@ -1,0 +1,65 @@
+@charset "ISO-8859-1";
+/* Reset some default styles to achieve consistent rendering across different browsers */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* Apply some basic styling to the body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f1f1f1;
+}
+
+/* Center the form vertically and horizontally */
+form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+    
+    padding:20px ;
+}
+
+/* Style the form header */
+h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    justify-content: center;
+}
+
+/* Style form labels */
+label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+}
+
+/* Style input fields */
+input[type="password"] {
+    width: 30%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+/* Style the Submit button */
+input[type="submit"] {
+    width: 30%;
+    padding: 10px;
+    font-size: 16px;
+    background-color: rgb(128, 128, 255);
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: rgb(128, 0, 255);
+}
